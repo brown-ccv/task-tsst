@@ -33,6 +33,7 @@ jobs:
       if: startsWith(matrix.os, 'windows')
       run: npm run build:win:clinic
     - name: npm build
+      if: startsWith(matrix.os, 'ubuntu')
       run: npm run build
 
 
