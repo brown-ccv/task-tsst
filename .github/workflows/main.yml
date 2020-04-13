@@ -38,7 +38,8 @@ jobs:
     - name: npm install
       run: npm install
     - name: npm build
-      run: npm run build
+      if: startsWith(matrix.os, 'windows')
+      run: npm run build:win:clinic
 
 
     # Build electron app package installers
