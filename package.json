@@ -1,17 +1,17 @@
 {
-  "name": "programming",
-  "description": "Programming Task",
+  "name": "tsst",
+  "description": "TSST Task",
   "author": {
     "name": "Brown CCV",
     "email": "ccv-bot@brown.edu",
     "url": "ccv.brown.edu"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "private": true,
   "main": "public/electron.js",
   "homepage": ".",
-  "repository": "https://github.com/brown-ccv/task-programming",
+  "repository": "https://github.com/brown-ccv/task-tsst",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
     "bootstrap": "^4.3.1",
